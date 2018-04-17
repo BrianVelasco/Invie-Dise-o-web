@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Invie -  tus mejores guitarras</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+</head>
+<body>
+	<div class="imagen">
+	<header id="header" class="header contenedor ">
+		
+		<figure class="logotipo">
+			<img src="logo1.png" width="186" height="60" alt="Logotipo">
+		</figure>
+		<nav class="nav">
+			<ul>
+				<li class="item">
+					<a href="diseñoweb.html">Home</a>
+				</li>
+				<li>
+					<a href="precios.html">Precios</a>
+				</li>
+				<li>
+					<a href="#guitarras">Guitarras</a>
+				</li>
+			</ul>
+		</nav>
+
+	</header>
+	<section id="portada " class="portada "><!-- portada -->
+		<div class="contenedor">
+			<h1>Guitarras Inviesibles</h1>
+			<h3 class="title-a">Se la estrella de rock que siempre quisiste ser</h3>
+			<button>Conoce mas</button>
+		</div>
+	</section>
+</div>
+	<section id="guitarras" class="guitarras contenedor"><!--guitarras -->
+		<h2>Nuestras guitarras</h2>
+		<article class="guitarra derecha">
+			<img src="invie-acustica.png" width="350">
+			<h3 class="title-b">Invie Acustica</h3>
+			
+			<ol >
+				<li>Estilo vintage</li>
+				<li>Madera pura</li>
+				<li>Incluye estuche invisible de aluminio</li>
+			</ol>
+		</article>
+		<article class="guitarra izquierda">
+			<img src="invie-classic.png" width="350">
+			<h3 class="title-b">Invie Classic</h3>
+			<ol>
+				<li>Estilo vintage</li>
+				<li>Liviana</li>
+				<li>Inicia tu camino como rockstar</li>
+			</ol>
+		</article>
+	</section>
+	<footer class="footer">
+		<div class="contenedor">
+			<div class="contacto">
+				<img src="logo.png">
+				<a href="tel:+573174974417"><strong>Telefono </strong><span>3175974417</span></a>
+				<a href="mailto:brianvp93@gmail.com"><strong>email </strong><span>brianvp93@gmail.com</span></a>			
+			</div>
+			<div class="formulario">
+				<form class="form">
+					<label for="nombre">Nombre</label>
+					<input type="text" id="nombre" required>
+					<label>Email</label>
+					<input type="email" name="Email" required>
+					<div class="genero">
+						<label for="mujer">
+							<input type="radio" name="genero" value="Mujer" id="mujer"> Mujer
+						</label>
+						<label for="hombre">
+							<input type="radio" name="genero" value="Hombre" id="hombre">Hombre	
+						</label>
+					</div>
+					<div class="listas">
+						<label for="cotizacion">
+							<input type="checkbox" name="cotizacion" id="cotizacion" value="cotizacion">Cotizacion							
+						</label>
+						<label for="comentarios">
+							<input type="checkbox" name="comentarios" id="comentarios" value="comentarios">Comentarios							
+						</label>
+						<label for="reclamos">
+							<input type="checkbox" name="reclamos" id="reclamos" value="reclamos">Reclamos							
+						</label>
+						<label for="otros">
+							<input type="checkbox" name="otros" id="otros" value="otros">Otros							
+						</label>						
+					</div>
+					<div class="texto">
+						<label for="texto">Comentarios</label>
+						<textarea id="texto" name="texto" cols="30" rows="8"></textarea>	
+						<input type="submit" name="enviar" value="enviar">				
+					</div>
+				</form>			
+			</div>
+		</div>
+
+	</footer>
+
+
+</body>
+</html>
