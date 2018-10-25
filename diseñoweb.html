@@ -67,33 +67,36 @@
 			</div>
 			<div class="formulario">
 				<form class="form">
-					<label for="nombre">Nombre del formulador</label>
-					<input type="text" id="nombre" required>
-					<label>Email</label>
-					<input type="email" name="E-mail" required>
-					<div class="genero">
-						<label for="mujer">
-							<input type="radio" name="genero" value="Mujer" id="mujer"> Mujer
-						</label>
-						<label for="hombre">
-							<input type="radio" name="genero" value="Hombre" id="hombre">Hombre	
-						</label>
+					<div class="col1">
+						<label for="nombre">Nombre</label>
+						<input type="text" id="nombre" required>
+						<label>Email</label>
+						<input type="email" name="E-mail" required>
+						<div class="genero">
+							<label for="mujer">
+								<input type="radio" name="genero" value="Mujer" id="mujer"> Mujer
+							</label>
+							<label for="hombre">
+								<input type="radio" name="genero" value="Hombre" id="hombre">Hombre	
+							</label>
+						</div>
+						<div class="listas">
+							<label for="cotizacion">
+								<input type="checkbox" name="cotizacion" id="cotizacion" value="cotizacion">Cotizacion							
+							</label>
+							
+							<label for="reclamos">
+								<input type="checkbox" name="reclamos" id="reclamos" value="reclamos">Reclamos							
+							</label>
+							<label for="comentarios">
+								<input type="checkbox" name="comentarios" id="comentarios" value="comentarios">Comentarios							
+							</label>
+							<label for="otros">
+								<input type="checkbox" name="otros" id="otros" value="otros">Otros							
+							</label>						
+						</div>
 					</div>
-					<div class="listas">
-						<label for="cotizacion">
-							<input type="checkbox" name="cotizacion" id="cotizacion" value="cotizacion">Cotizacion							
-						</label>
-						<label for="comentarios">
-							<input type="checkbox" name="comentarios" id="comentarios" value="comentarios">Comentarios							
-						</label>
-						<label for="reclamos">
-							<input type="checkbox" name="reclamos" id="reclamos" value="reclamos">Reclamos							
-						</label>
-						<label for="otros">
-							<input type="checkbox" name="otros" id="otros" value="otros">Otros							
-						</label>						
-					</div>
-					<div class="texto">
+					<div class="col2">
 						<label for="texto">Comentarios</label>
 						<textarea id="texto" name="texto" cols="30" rows="8"></textarea>	
 						<input type="submit" name="enviar" value="enviar">				
